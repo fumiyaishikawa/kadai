@@ -13,7 +13,7 @@
 
     <div class="todo-block">
         <h2>Login</h2>
-        <form action="/" method="post">
+        <form action="/mytask" method="post">
             {{csrf_field() }}
             <p>
                 <label for="mail">E-Mail ddress</label>
