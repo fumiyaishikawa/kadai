@@ -13,7 +13,7 @@
 
     <div class="todo-block">
         <h2>Register</h2>
-        <form action="/" method="post">
+        <form action="/register.check" method="post">
             {{csrf_field() }}
             <p>
                 <label for="name">Name</label>
